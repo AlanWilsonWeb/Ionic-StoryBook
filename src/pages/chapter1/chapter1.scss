@@ -1,3 +1,20 @@
 page-chapter1 {
 
 }
+#backwards {
+  position: relative;
+  left: 0;
+  margin-bottom: auto;
+}
+#forwards {
+  position: relative;
+  right: 0;
+  margin-bottom: auto;
+}
+
+#myControls {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: auto;
+  width: auto;
+}

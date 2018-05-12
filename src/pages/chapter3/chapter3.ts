@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Chapter2Page } from '../chapter2/chapter2';
+import { Chapter4Page } from '../chapter4/chapter4';
 
 /**
  * Generated class for the Chapter3Page page.
@@ -16,6 +18,12 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class Chapter3Page {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+  openPage2() {
+    this.navCtrl.push(Chapter2Page);
+  }
+  openPage4() {
+    this.navCtrl.push(Chapter4Page);
   }
 
   ionViewDidLoad() {
